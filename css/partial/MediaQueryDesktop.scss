@@ -1,0 +1,80 @@
+
+
+@media screen and (min-width: 1023px){
+	.container{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.nav{
+		@include width (100%);
+		@include height (7%);
+		display: flex;
+
+		&_items{
+			@include width (35%);
+			&_logo{
+			 @include width (122px);
+			}
+			&_menu{
+				display: none;
+			}
+
+			&_oculto{
+				list-style: none;
+			}
+		}
+
+		&_link{
+			text-decoration: none;
+			@include size (13px);
+			color: $color-silver-chalice;
+			border-left: 1px solid $color-sunglow;
+			padding-left: 50px;
+
+		}
+	}
+
+	.nav_oculto{
+		@include width (60%);
+		display: block;
+		display: flex;
+		justify-content: space-around;			
+	}
+
+	.encabezado{
+		@include width (60%);
+	}
+
+	.cuerpo{
+		@include width (60%);
+	}
+	.contacto{
+		@include width (100%);
+		&_item1,
+		&_item3,
+		&_item4,
+		&_item5{
+			@include width (25%);
+		}
+
+		&_item1{
+			&_title{
+			@include width (100%);
+			padding: 2%;
+			}
+		}
+		&_item4{
+			&_title{
+			@include width (157px);
+			}
+		}
+	}
+	.piedepagina{
+		padding: 3%;
+
+		&_follow{
+		 @include height (52%);
+		}
+	}
+}

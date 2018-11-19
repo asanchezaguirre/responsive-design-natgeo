@@ -1,0 +1,37 @@
+
+.cuerpo{
+	
+	display: flex;
+	flex-wrap: wrap;
+	@include width (100%);
+	justify-content: center;
+	&_item5{
+		@include width (100%);
+	}
+	&_item6{
+		@include width (100%);
+		margin-top: 16px;
+		&_sub{
+			letter-spacing: 5px;
+			font-weight: lighter;
+			@include size (17px);
+			@include width (100%);
+			text-align: left;
+		}
+		&_mas{
+		    @include width (66px);
+			margin-bottom: 8%;
+			border-bottom: 2px solid $color-sunglow;
+
+			&_a{
+				text-decoration: none;
+				@include size (13px);
+				color: $color-mine-chaft;	
+			}
+		}
+	}
+
+	&_item7{
+		@include width (79%);
+	}
+}

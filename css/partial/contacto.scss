@@ -1,0 +1,62 @@
+
+.contacto{
+	@include width (100%);
+	background-color: $color-mine-chaft;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 10px;
+
+	&_item1{
+		padding-top: 5%;
+		@include width (51%);
+		@include size (9px);
+		text-align: center;
+
+		&_logos{
+		padding-top: 3%;
+		letter-spacing: 5px;
+		@include size (18px);
+		}
+	}
+
+	&_item3{
+		padding-top: 15%;
+		@include width (89%);
+		@include size (9px);
+		text-align: center;
+
+		&_a{
+			text-decoration-line: underline;
+			text-decoration-color: $color-sunglow;
+			color: white;
+		}
+	}
+
+	&_item4{
+		padding-top: 15%;
+		@include width (89%);
+		@include size (9px);
+		text-align: center;
+
+		&_a{
+			text-decoration-line: underline;
+			text-decoration-color: $color-sunglow;
+			color: white;
+		}
+	}
+
+	&_item5{
+		padding: 15% 0;
+		@include width (89%);
+		@include size (9px);
+		text-align: center;
+
+		&_a{
+			text-decoration-line: underline;
+			text-decoration-color: $color-sunglow;
+			color: white;
+		}
+	}
+}

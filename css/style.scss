@@ -1,0 +1,23 @@
+
+@import "./partial/variables";
+@import "./partial/mixins";
+@import "./partial/navegacion";
+@import "./partial/cuerpo";
+@import "./partial/contacto";
+@import "./partial/pie";
+@import "./partial/MediaQueryTablet";
+@import "./partial/MediaQueryDesktop";
+
+
+
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Gill Sans', 'Century Gothic', sans-serif;
+}
+
+
+

@@ -1,0 +1,68 @@
+
+.piedepagina{
+	background-color: $color-silver-chalice;
+	padding: 7% 5%;
+	@include size (9px);
+	letter-spacing: 1px;
+
+	&_input{
+		@include width (41%);
+		border: 0;
+	}
+
+	&_button{	
+		border: none;
+		@include width (23%);
+		text-decoration: none;
+	    @include size (9px);
+	    color: $color-mine-chaft;
+	    background-color: $color-sunglow;
+	    margin-left: 3px;
+	}
+	&_log{
+		display: flex;
+		@include width (100%);
+		border:none;
+	}
+	&_follow{
+		margin-top: 12%;
+	}
+}
+
+
+img{
+	@include width (100%);
+}
+
+.title_article{
+	@include size (80%);
+	margin-top: 0;
+}
+.text_article{
+	@include size (60%);
+	border-left: .5px solid $color-silver-chalice;
+	padding-left: 2%;
+}
+.showmore{
+	@include width (100%);
+	text-decoration: none;
+    @include size (12px);
+    color: $color-mine-chaft;
+    background-color: $color-sunglow;
+    border: 1px solid $color-mine-chaft;
+    padding: 3px 0;
+}
+
+.fab{
+	
+	&.fa-twitter{
+		color: &color-dodge-blue;
+	}
+	&.fa-facebook-f{
+		color: $color-chambray;
+	}
+	&.fa-instagram{
+		color: $color-nepal;
+	}
+}
+

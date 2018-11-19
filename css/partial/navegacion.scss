@@ -1,0 +1,52 @@
+.nav{
+	border-bottom: .5px solid $color-silver-chalice;
+	&_items{
+		@include width (100%);
+		@include height (40px);
+		display: flex;
+		justify-content: space-between;
+		list-style: none;
+		padding-left: 0;
+		margin: 0;		
+		&_logo{
+			width: 94px;	
+		}
+		&_menu{
+			@include size (24px);
+			color: $color-mine-chaft;
+		}	
+	}
+}
+
+.nav_oculto{
+	display: none;
+}
+.encabezado{
+	font-family: 'Gill Sans', 'Century Gothic', sans-serif;
+	&_title{	
+		@include width (60%);
+		margin: 35px 0;
+		&_1{
+			letter-spacing: 10px;
+			font-weight: lighter;
+			@include size (24px);
+		}
+	}
+
+	&_sub{
+		letter-spacing: 5px;
+		font-weight: lighter;
+		@include size (17px);
+		@include width (95%);
+	}
+	&_mas{
+		@include width (66px);
+		margin-bottom: 27px;
+		border-bottom: 2px solid $color-sunglow;
+		&_uno{
+			text-decoration: none;
+			@include size (13px);
+			color: $color-mine-chaft;
+		}
+	}
+}

@@ -1,0 +1,12 @@
+@mixin width($value){
+	width: $value;
+}
+@mixin height($property){
+	height: $property;
+}
+@mixin size($value){
+	font-size: $value;
+}
+@mixin padding($property){
+	padding: $property;
+}
